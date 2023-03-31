@@ -1,0 +1,2 @@
+execute as @e[type=armor_stand,tag=ant] at @s if block ~ ~-1 ~ white_concrete run schedule function ant:on_white 1t
+execute as @e[type=armor_stand,tag=ant] at @s if block ~ ~-1 ~ black_concrete run schedule function ant:on_black 1t
